@@ -1,0 +1,155 @@
+html{
+    background-color: rgb(218, 218, 218);
+}
+
+.page{
+    background-color: rgb(218, 218, 218);
+    margin: 70px auto;
+     width: 88%;
+     height: 150vh;
+     display: grid;
+     grid-template-columns:repeat(12,1fr) ;
+     grid-template-rows:repeat(12,1fr) ;
+     gap: 8px;
+ 
+     grid-template-areas:
+     
+"noor noor noor noor noor noor emank emank emank emana emana emana"
+"noor noor noor noor noor noor emank emank emank emana emana emana"
+"noor noor noor noor noor noor emank emank emank emana emana emana"
+"osama osama osama alaa alaa alaa alaa alaa alaa emana emana emana"
+"osama osama osama alaa alaa alaa alaa alaa alaa emana emana emana"
+"osama osama osama alaa alaa alaa alaa alaa alaa emana emana emana"
+"osama osama osama nada nada nada nada nada nada emana emana emana"
+"osama osama osama nada nada nada nada nada nada emana emana emana"
+"osama osama osama nada nada nada nada nada nada emana emana emana"
+"ezz ezz ezz sabah sabah sabah abdo abdo abdo hazem hazem hazem"
+"ezz ezz ezz sabah sabah sabah abdo abdo abdo hazem hazem hazem"
+"ezz ezz ezz sabah sabah sabah abdo abdo abdo hazem hazem hazem"
+"ezz ezz ezz sabah sabah sabah abdo abdo abdo hazem hazem hazem"
+;
+}
+
+.page .noor{
+  grid-area: noor;
+        background-color: #eee}
+ 
+
+.page .eman-khatab{
+    grid-area:emank ;
+   background-color: #eee;
+}
+
+.page .ezz{
+    grid-area: ezz;
+      background-color: #eee;
+    
+      
+}
+.page .alaa{
+    grid-area: alaa;
+       background-color: black;
+           
+}
+.page .nada{
+    grid-area: nada;
+       background-color: #eee;
+          
+}
+.page .osama-elzero{
+    grid-area: osama;
+       background-color: #eee;
+         
+}
+.page .abdo{
+    grid-area: abdo;
+       background-color: #eee;
+        
+}
+.page .hazem{
+    grid-area: hazem;
+       background-color: #eee;
+      
+}
+.page .sabah{
+    grid-area: sabah;
+       background-color: black;
+     
+}
+
+.page .eman-arafa{
+    grid-area: emana;
+     background-color: black;
+}
+
+
+
+/* اسوووود */
+
+.page .eman-arafa .write,.page .alaa .write ,.page .sabah .write {
+    margin: 10px;
+    color: white;
+}
+.page .eman-arafa h2,.page .alaa h2 ,.page .sabah h2{ margin: 0;
+    font-size: 19px;
+}
+.page .eman-arafa h6,.page .alaa h6 ,.page .sabah h6{
+    margin: 0;
+    color: #b7b7b9;
+    margin-bottom: 16px;
+        font-size: 0.84em;
+}
+.page .eman-arafa h3,.page .alaa h3 ,.page .sabah h3{
+    margin: 0;
+    font-size:17px;
+font-weight:600;
+margin-bottom: 15px;
+}
+.page .eman-arafa h4,.page .alaa h4,.page .sabah h4{
+    margin: 0;
+    font-size:18px;
+    font-weight: 100;
+}
+
+
+
+/* ابيييييض */
+.page aside{
+    margin: 10px;
+}
+/* .page .noor .write,.page .eman-khatab .write,.page .osama-elzero .write ,.page .nada .write ,.page .ezz .write
+,.page .hazem .write ,.page .abdo .write
+{
+    margin: 10px;
+} */
+.page .noor h2,.page .eman-khatab h2,.page .osama-elzero h2,.page .nada h2,.page .ezz h2,.page .hazem h2,.page .abdo h2{ margin: 0;
+    font-size: 19px;
+}
+.page .noor h6,.page .eman-khatab h6,.page .osama-elzero h6,.page .nada h6,.page .ezz h6,.page .hazem h6 ,.page .abdo h6{
+    margin: 0;
+    color: #b7b7b9;
+    margin-bottom: 16px;
+        font-size: 0.84em;
+}
+.page .noor h3,.page .eman-khatab h3,.page .osama-elzero h3,.page .nada h3,.page .ezz h3,.page .hazem h3,.page .abdo h3{
+    margin: 0;
+    font-size:16px;
+font-weight:bold;
+margin-bottom: 15px;
+}
+.page .noor h4,.page .eman-khatab h4,.page .osama-elzero h4,.page .nada h4,.page .ezz h4,.page .hazem h4,.page .abdo h4{
+    margin: 0;
+    font-size:16px;
+    font-weight: 100;
+}
+.page div{
+    position: relative;
+}
+.page div::after{
+    content:"";
+    background-color:#d34c21;
+    width:100%;
+    height:5px;
+    position:absolute;
+    bottom: 0;
+}
